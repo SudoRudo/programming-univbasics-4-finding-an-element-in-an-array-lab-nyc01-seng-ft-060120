@@ -5,8 +5,7 @@ def find_element_index(array, value_to_find)
       if array[i] != value_to_find
         i += 1
       else
-        i += 1
-        p i - 1
+        i
       end
     end
   else
